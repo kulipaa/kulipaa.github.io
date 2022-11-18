@@ -4,6 +4,12 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="yes" name="apple-touch-fullscreen">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="320" name="MobileOptimized">
+		<!--适配手机-->
 		<link rel="stylesheet" href="css/mdui.min.css" />
 		<!--mdui  CSS库-->
 			<link rel="shortcut icon" href="images/tb.jpg">
@@ -27,6 +33,9 @@
 				float: left;
 				padding: 5px;
 				font-family: celan;
+			}
+			#chouti {
+				background-color: white;
 			}
 
 			@font-face {
@@ -63,6 +72,9 @@
 			td em {
 							color: green;
 						}
+						body{
+							background-image: url(images/bj.jpg);
+						}
 		</style>
 	</head>
 	<body class="mdui-drawer-body-left mdui-bottom-nav-fixed">
@@ -83,7 +95,7 @@
 		<!--主体-->	
 		</div>
 		<div class="mdui-center" id="a1">
-					<table align="center" width="600px" height="550px" border="5" cellpadding="15" cellspacing="1">
+					<table align="center" width="670px" height="550px" border="5" cellpadding="19" cellspacing="1">
 						<tr>
 							<th><b>日期</b></th>
 							<th><b>项目</b></th>
@@ -168,10 +180,10 @@
 							<td align="center"><a href="pz/15.jpg" target="_blank">1208.12</a></td>
 						</tr>
 					</table>
-					<h1>10月总支出:<font color="red">585.88</font></h2>
 		</div>
 		<!--主体-->
 		<!--抽屉导航栏-->
+		
 		<div class="mdui-drawer mdui-shadow-12" id="chouti">
 			<ul class="mdui-list">
 				<a href="money_v2.html" target="_blank" title="点击返回主表"><!--套a标签-->
@@ -186,15 +198,21 @@
 						<div class="mdui-list-item-content"> &nbsp; &nbsp; &nbsp; &nbsp;9月班费表</div><!--文本-->
 					</li>
 				</a>
-				<a href="money_11m.html" target="_blank" title="点击前往十一月班费表"><!--套a标签-->
+				<a href="money_9m.html" target="_blank" title="点击前往十一月班费表"><!--套a标签-->
 				<li class="mdui-list-item mdui-ripple mdui-shadow-4">
 					<i class="mdui-icon material-icons">&#xe263;</i>
 						<div class="mdui-list-item-content"> &nbsp; &nbsp; &nbsp; &nbsp;11月班费表</div><!--文本-->
 					</li>
-				</a>
+				</a><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+				<li class="mdui-list-item mdui-ripple mdui-shadow-4">
+					<i class="mdui-icon material-icons">&#xe632;</i>
+					<div class="mdui-list-item-title"> &nbsp; &nbsp; &nbsp; &nbsp;十月总支出：<font color="red">585.88</font></div>
+				</li>
 			</ul>
 		</div>
 		<!--抽屉导航栏-->
 		<script src="js/mdui.min.js"></script>
+		
+		
 	</body>
 </html>
